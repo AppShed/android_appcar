@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.appshed.appcario" version="190.0.0" versionCode="190">
+  <name>AppCar.io</name>
+  <description>A Remote Controlled Car, built using AppShed IoT. </description>
+  <author email="iot@appshed.com">iot tester</author>
+  <access origin="*" uri="*"/>
+  <gap:plugin name="com.adobe.plugins.gaplugin"/>
+  <gap:plugin name="org.apache.cordova.inappbrowser"/>
+  <gap:plugin name="org.apache.cordova.camera"/>
+  <gap:plugin name="org.apache.cordova.media-capture"/>
+  <gap:plugin name="org.apache.cordova.geolocation"/>
+  <gap:plugin name="org.apache.cordova.dialogs"/>
+  <gap:plugin name="org.apache.cordova.file-transfer"/>
+  <icon src="Icon.png"/>
+  <icon src="iclauncher-ldpi.png" gap:platform="android" gap:density="ldpi"/>
+  <icon src="iclauncher-mdpi.png" gap:platform="android" gap:density="mdpi"/>
+  <icon src="iclauncher-hdpi.png" gap:platform="android" gap:density="hdpi"/>
+  <icon src="iclauncher-xhdpi.png" gap:platform="android" gap:density="xhdpi"/>
+  <gap:splash src="Default.png"/>
+</widget>
